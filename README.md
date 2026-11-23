@@ -50,3 +50,8 @@ Terms: <https://dearkarl.com/terms>.
 
 Email [hi@dearkarl.com](mailto:hi@dearkarl.com). Dear Karl is run by Technologie 21
 Aleksander Jaworski, Wrocław, Poland.
+
+## Credits
+
+The icon uses the 📬 emoji from [Noto Emoji](https://github.com/googlefonts/noto-emoji)
+by Google, licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
