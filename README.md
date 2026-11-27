@@ -25,7 +25,7 @@ Nothing in this plugin can send email, or create, change or delete files.
 2. Install the plugin:
 
    ```
-   /plugin install dearkarl --marketplace jaal/dearkarl-plugin
+   /plugin install dearkarl --marketplace Technologie-21/dearkarl-plugin
    ```
 
    Then connect it: in Claude Code run `/mcp`, pick
