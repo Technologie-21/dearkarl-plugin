@@ -1,15 +1,15 @@
-# Dear Karl for Claude
+# DearKarl for Claude
 
-**Email anything to Claude.** Dear Karl gives you a secret email address. Forward
+**Email anything to Claude.** DearKarl gives you a secret email address. Forward
 any email to it, and it is saved as a plain markdown file in a `dearkarl` folder in
 your own Google Drive. This plugin lets Claude list and read those files, so you
 can say "summarise what I sent Karl this morning" instead of copying and pasting.
-Dear Karl never asks for access to your mailbox — it only sees what you choose to
+DearKarl never asks for access to your mailbox — it only sees what you choose to
 forward.
 
 ## What's inside
 
-- **Dear Karl connector** — the remote MCP server at `https://dearkarl.com/mcp`,
+- **DearKarl connector** — the remote MCP server at `https://dearkarl.com/mcp`,
   with two read-only tools:
   - `list_files` — names, sizes and dates of your saved files (no contents)
   - `read_file` — the text of one file (up to 256 KB)
@@ -30,25 +30,25 @@ Nothing in this plugin can send email, or create, change or delete files.
 
    Then connect it: in Claude Code run `/mcp`, pick
    **dearkarl**, and sign in. Sign-in uses OAuth; you never paste a token.
-3. Forward an email to your address and ask Claude: *"What's new in Dear Karl?"*
+3. Forward an email to your address and ask Claude: *"What's new in DearKarl?"*
 
 ## Example prompts
 
-- "What did I send to Dear Karl today?"
-- "Read the newest file in Dear Karl and list the action items."
+- "What did I send to DearKarl today?"
+- "Read the newest file in DearKarl and list the action items."
 - "Find the invoice I forwarded to Karl last week and tell me the total."
 
 ## Privacy
 
 The connector reads only the files in the `dearkarl` folder of the Google Drive
 account you signed in with, and only when Claude calls a tool. The plugin itself
-stores nothing and sends data nowhere except `dearkarl.com`. Dear Karl is not
+stores nothing and sends data nowhere except `dearkarl.com`. DearKarl is not
 intended for people under 18. Full policy: <https://dearkarl.com/privacy>.
 Terms: <https://dearkarl.com/terms>.
 
 ## Support
 
-Email [hi@dearkarl.com](mailto:hi@dearkarl.com). Dear Karl is run by Technologie 21
+Email [hi@dearkarl.com](mailto:hi@dearkarl.com). DearKarl is run by Technologie 21
 Aleksander Jaworski, Wrocław, Poland.
 
 ## Credits

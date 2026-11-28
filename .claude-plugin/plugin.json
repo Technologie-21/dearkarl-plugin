@@ -1,10 +1,10 @@
 {
   "name": "dearkarl",
-  "displayName": "Dear Karl",
+  "displayName": "DearKarl",
   "version": "0.1.0",
-  "description": "Email anything to Claude. Forward an email to your secret Dear Karl address and Claude can list and read it as a file — read-only, and it never asks for your mailbox.",
+  "description": "Email anything to Claude. Forward an email to your secret DearKarl address and Claude can list and read it as a file — read-only, and it never asks for your mailbox.",
   "author": {
-    "name": "Dear Karl",
+    "name": "DearKarl",
     "email": "hi@dearkarl.com",
     "url": "https://dearkarl.com"
   },

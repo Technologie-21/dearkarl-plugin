@@ -1,17 +1,17 @@
 {
   "name": "dearkarl",
   "owner": {
-    "name": "Dear Karl",
+    "name": "DearKarl",
     "email": "hi@dearkarl.com"
   },
   "metadata": {
-    "description": "Dear Karl for Claude: read what you forwarded to your Dear Karl address."
+    "description": "DearKarl for Claude: read what you forwarded to your DearKarl address."
   },
   "plugins": [
     {
       "name": "dearkarl",
       "source": "./",
-      "description": "Email anything to Claude — list and read what you forwarded to your Dear Karl address."
+      "description": "Email anything to Claude — list and read what you forwarded to your DearKarl address."
     }
   ]
 }
