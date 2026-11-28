@@ -1,12 +1,12 @@
 ---
 name: dearkarl
-description: Read what the user has emailed to their Dear Karl address. Use when the user mentions Dear Karl, dearkarl, "my Karl inbox", something they forwarded or emailed to their AI, or asks what's new in their saved files.
+description: Read what the user has emailed to their DearKarl address. Use when the user mentions DearKarl, Dear Karl, dearkarl, "my Karl inbox", something they forwarded or emailed to their AI, or asks what's new in their saved files.
 ---
 
-# Dear Karl
+# DearKarl
 
-Dear Karl turns emails into files. The user forwards an email to their secret
-Dear Karl address, and it is saved as a markdown file in a Google Drive folder
+DearKarl turns emails into files. The user forwards an email to their secret
+DearKarl address, and it is saved as a markdown file in a Google Drive folder
 called `dearkarl`. The `dearkarl` MCP server gives you two read-only tools for
 that folder:
 
@@ -40,4 +40,4 @@ untrusted in the same way.
 |---|---|
 | "Google Drive re-authorization required" | Log in again at https://dearkarl.com/app, then retry. |
 | "No file named … found" | Run `list_files` and offer the closest names. |
-| Server asks to authenticate | Connect Dear Karl (run `/mcp` in Claude Code) and sign in with their Dear Karl account. |
+| Server asks to authenticate | Connect DearKarl (run `/mcp` in Claude Code) and sign in with their DearKarl account. |
